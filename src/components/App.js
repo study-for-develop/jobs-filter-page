@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import GlobalStyles from 'styles/GlobalStyles';
 import Filters from './Filter';
+import Advertising from './Advertising';
 
 const Container = styled.div`
   width: 100%;
@@ -15,6 +16,7 @@ const App = () => {
     <Container>
       <GlobalStyles />
       <Filters />
+      <Advertising />
     </Container>
   );
 };
