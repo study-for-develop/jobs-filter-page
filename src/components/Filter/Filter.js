@@ -13,7 +13,7 @@ const Button = styled.button`
   }
 `;
 const LeftText = styled.span`
-  color: var(--filter-sub-font-color);
+  color: var(--sub-font-color);
   font-weight: 400;
   font-size: 13px;
   margin-right: 5px;
