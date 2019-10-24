@@ -4,6 +4,8 @@ import Filter from './Filter';
 
 const Container = styled.div`
   width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
