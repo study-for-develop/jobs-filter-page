@@ -18,6 +18,8 @@ export const globalStyle = css`
     --button-container-border: #eee;
     --icon-close-color: #bbb;
     --base-background-color: #f2f2f2;
+    --like-false-color: rgba(255, 255, 255, 0.3);
+    --like-true-color: #ff415c;
   }
 `;
 

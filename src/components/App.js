@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import GlobalStyles from 'styles/GlobalStyles';
 import Filters from './Filter';
 import Advertising from './Advertising';
+import Jobs from './Job';
 
 const Container = styled.div`
   width: 100%;
@@ -17,6 +18,7 @@ const App = () => {
       <GlobalStyles />
       <Filters />
       <Advertising />
+      <Jobs />
     </Container>
   );
 };
