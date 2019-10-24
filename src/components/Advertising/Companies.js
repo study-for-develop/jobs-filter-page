@@ -109,8 +109,8 @@ const Companies = () => {
     <Container>
       <Title>적극 채용 중인 회사</Title>
       <CompanyContainer>
-        {data.map((item, index) => (
-          <Company key={index} data={item} />
+        {data.map(item => (
+          <Company key={item.id} data={item} />
         ))}
       </CompanyContainer>
     </Container>
